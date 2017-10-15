@@ -12,6 +12,7 @@
 		0C0FD7011F9399EA0069F9D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FD6FF1F9399EA0069F9D6 /* Main.storyboard */; };
 		0C0FD7031F9399EA0069F9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FD7021F9399EA0069F9D6 /* Assets.xcassets */; };
 		0C0FD7061F9399EA0069F9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FD7041F9399EA0069F9D6 /* LaunchScreen.storyboard */; };
+		0C108DD91F93B7520047F81B /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C108DD81F93B7520047F81B /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0C0FD7021F9399EA0069F9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0FD7051F9399EA0069F9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0FD7071F9399EB0069F9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C108DD81F93B7520047F81B /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0C0FD6FB1F9399E90069F9D6 /* AppDelegate.swift */,
+				0C108DD81F93B7520047F81B /* DefinitionViewController.swift */,
 				0C0FD6FD1F9399E90069F9D6 /* ViewController.swift */,
 				0C0FD6FF1F9399EA0069F9D6 /* Main.storyboard */,
 				0C0FD7021F9399EA0069F9D6 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0FD6FE1F9399E90069F9D6 /* ViewController.swift in Sources */,
+				0C108DD91F93B7520047F81B /* DefinitionViewController.swift in Sources */,
 				0C0FD6FC1F9399E90069F9D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				0C0FD70C1F9399EB0069F9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
